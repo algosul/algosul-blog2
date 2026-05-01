@@ -1,0 +1,17 @@
+{
+  "name": "algosul-blog",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "WRANGLER_LOG_PATH=.wrangler/logs wrangler dev",
+    "deploy": "WRANGLER_LOG_PATH=.wrangler/logs wrangler deploy",
+    "build": "WRANGLER_LOG_PATH=.wrangler/logs wrangler deploy --dry-run"
+  },
+  "devDependencies": {
+    "node-gyp": "^12.3.0",
+    "wrangler": "^4.0.0"
+  },
+  "dependencies": {
+    "sharp": "^0.34.5"
+  }
+}
