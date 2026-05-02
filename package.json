@@ -5,6 +5,7 @@
   "scripts": {
     "build": "./build.sh",
     "build:win": "build.bat",
+    "dev": "npx http-server dist -p 8000",
     "prepare": "npm run build"
   },
   "keywords": [
