@@ -1,12 +1,4 @@
 {
-  "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "algosul-blog-starter-template",
-  "main": "build/worker/shim.mjs",
-  "compatibility_date": "2026-05-01",
-  "build": {
-    "command": "worker-build --release"
-  },
-  "observability": {
-    "enabled": true
-  }
+  "_comment": "Cloudflare 配置已移除，迁移到 GitHub Pages 模式",
+  "note": "此文件仅作为历史记录保留，不再使用"
 }

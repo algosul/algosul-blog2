@@ -1,17 +1,17 @@
 {
-  "name": "algosul-blog",
+  "name": "algosul-blog-github-pages",
   "version": "0.1.0",
-  "private": true,
+  "description": "零号种子 - GitHub Pages 部署",
   "scripts": {
-    "dev": "WRANGLER_LOG_PATH=.wrangler/logs wrangler dev",
-    "deploy": "WRANGLER_LOG_PATH=.wrangler/logs wrangler deploy",
-    "build": "WRANGLER_LOG_PATH=.wrangler/logs wrangler deploy --dry-run"
+    "build": "./build.sh",
+    "build:win": "build.bat",
+    "prepare": "npm run build"
   },
-  "devDependencies": {
-    "node-gyp": "^12.3.0",
-    "wrangler": "^4.0.0"
-  },
-  "dependencies": {
-    "sharp": "^0.34.5"
-  }
+  "keywords": [
+    "github-pages",
+    "static-site",
+    "game"
+  ],
+  "author": "",
+  "license": "MIT"
 }
