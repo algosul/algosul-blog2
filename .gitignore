@@ -1,5 +1,27 @@
-build/
+# 依赖
 node_modules/
+package-lock.json
+
+# 构建输出
+dist/
+build/
 target/
+
+# Rust 工具链
+wrangler.log
 .wrangler/
-.codex
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 环境变量
+.env
+.env.local
