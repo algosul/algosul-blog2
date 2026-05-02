@@ -15,7 +15,7 @@ version = "0.3"
 features = ["Window", "Performance", "PerformanceTiming"]
 
 [profile.release]
-opt-level = "z"   # 优化大小
-lto = true        # 链接时优化
-strip = true      # 去除符号
-codegen-units = 1 # 单一代码生成单元以提高优化效果
+opt-level = "z"
+lto = true
+strip = true
+codegen-units = 1
